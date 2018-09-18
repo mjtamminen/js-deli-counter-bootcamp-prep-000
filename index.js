@@ -1,5 +1,5 @@
 var line = []
-var everyone = []
+
 
 function takeANumber(line,name) {
   line.push(name)
@@ -14,6 +14,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
+  var everyone = []
   if (line.length===0) {
     return "The line is currently empty." 
   }
