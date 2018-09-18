@@ -3,7 +3,7 @@ var lineTotal = []
 
 
 function takeANumber(line) {
-  line.push(line.length+1)
+  line.push(lineTotal.length+1)
   lineTotal.push(lineTotal.length+1)
   return `Welcome, your number is ${lineTotal.length}.`
 }
