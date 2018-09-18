@@ -1,9 +1,11 @@
 var line = []
+var lineTotal = []
 
 
 function takeANumber(line) {
   line.push(line.length+1)
-  return `Welcome, your number is ${line.length}.`
+  lineTotal.push(line.lineTotal+1)
+  return `Welcome, your number is ${lineTotal.length}.`
 }
 
 console.log(takeANumber(line))
