@@ -24,4 +24,5 @@ function currentLine(line) {
   }
 }
 
-console.log(currentLine(["Hans", "Mary", "Joseph"])
+console.log(currentLine(["Hans", "Mary", "Joseph"]))
+console.log(currentLine(["Hans", "Mary", "Joseph"]))
