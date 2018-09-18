@@ -6,6 +6,14 @@ function takeANumber(line,name) {
   return `Welcome, your number is ${line.length}.`
 }
 
+console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(takeANumber(line))
+console.log(nowServing(line))
+console.log(nowServing(line))
+console.log(nowServing(line))
+console.log(takeANumber(line))
+
 function nowServing(line) {
   if (line.length===0) {
     return "There is nobody waiting to be served!"
