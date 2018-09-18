@@ -1,8 +1,8 @@
 var line = []
 
 
-function takeANumber(line,name) {
-  line.push(name)
+function takeANumber(line) {
+  line.push(line.length+1)
   return `Welcome, your number is ${line.length}.`
 }
 
