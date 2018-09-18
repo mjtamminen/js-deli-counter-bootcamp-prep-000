@@ -23,3 +23,5 @@ function currentLine(line) {
   return `The line is currently: ${everyone.join(', ')}`
   }
 }
+
+console.log(currentLine(["Hans", "Mary", "Joseph"])
